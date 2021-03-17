@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Arizonia&display=swap");
+
+.group-banner {
+  display: flex;
+  justify-content: center;
+  background-color: #f6f7f9;
+  padding: 0px 0px 20px 0px;
+}
+.banner-title {
+  font-family: "Arizonia", cursive;
+  font-size: 35px;
+  font-weight: 500;
+  color: gray;
+  display: flex;
+  justify-content: center;
+}

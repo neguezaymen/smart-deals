@@ -1,0 +1,15 @@
+.user-profile-nav {
+  padding-top: 85px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+.user-profile-nav-left {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}

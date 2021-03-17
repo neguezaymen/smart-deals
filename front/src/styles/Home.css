@@ -1,0 +1,39 @@
+.deals-container-home {
+  background-color: #e9eaed;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  margin: 0px;
+  min-height: 60vh;
+}
+.deal-home {
+  border-radius: 7px;
+  /* margin-bottom: 50px !important; */
+}
+
+@media (max-width: 850px) {
+  .deals-container-home .col-2 {
+    flex: none;
+    max-width: none;
+  }
+
+  .deals-container-home .deal {
+    min-width: 345px;
+    margin: 0px;
+  }
+  .deals-home {
+    width: 70% !important;
+  }
+  .deals-home-container {
+    padding: 0 !important;
+  }
+  .deals-container-home .col-8 {
+    flex: none !important;
+    max-width: 98% !important;
+  }
+  .deal-image img {
+    padding: 5px !important;
+  }
+}
+.Link-img:hover {
+  text-decoration: none;
+}

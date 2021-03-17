@@ -1,0 +1,67 @@
+/* .deal-page-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+} */
+
+.deal-page {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: #1d1f20;
+  text-decoration: none;
+  height: 35px;
+  align-items: center;
+}
+.deal-page-container .row {
+  margin: 0px;
+}
+.deal-page li {
+  color: white;
+  list-style: none !important;
+}
+.deal-page li:hover {
+  color: #03a5c1;
+}
+.deal-page a:hover {
+  text-decoration: none;
+  list-style: none;
+}
+a:hover {
+  text-decoration: none;
+  list-style: none;
+}
+.deal-info {
+  /* display: flex; */
+  padding: 10px;
+  /* flex-wrap: wrap; */
+  /* font-size: 15px; */
+  max-width: 1200px;
+  background-color: white;
+  border-radius: 7px 7px 0px 0px;
+  /* text-align: center; */
+}
+.deals-home a {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.comments {
+  background-color: white;
+}
+@media (max-width: 742px) {
+  .col-8 {
+    max-width: none;
+    flex: none;
+  }
+  .col-2 {
+    max-width: none;
+    flex: none;
+  }
+  .expire-le {
+    display: none;
+  }
+  .fa-hourglass-end {
+    display: none !important;
+  }
+}

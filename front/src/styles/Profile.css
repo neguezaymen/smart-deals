@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Arizonia&display=swap");
+
+.container {
+  padding-top: 40px;
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0px !important;
+  padding: 0px !important;
+  margin-right: 0px;
+  max-width: 100%;
+}
+.container .row {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  margin: 0px !important;
+}
+.left-profile-side {
+  padding-bottom: 60px !important;
+  padding-top: 60px !important;
+  background-color: #e9eaed !important;
+  height: auto;
+  min-height: 100vh;
+  min-width: 375px;
+  text-align: right;
+}
+.parametre {
+  color: #35373b !important;
+  font-size: 40px !important;
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+.parametre-item {
+  color: #03a5c1 !important;
+  font-size: 25px !important;
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+.parametre-item i {
+  margin-right: 10px;
+}
+.parametre-item:hover {
+  color: #03a5c1 !important;
+}
+.container a:hover {
+  text-decoration: none !important;
+}
+.right-profile-side {
+  text-align: center;
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+}
+.container {
+  height: 100%;
+  align-content: center;
+}
+
+.image_outer_container {
+  margin-top: auto;
+  margin-bottom: auto;
+  border-radius: 50%;
+  position: relative;
+}
+
+.image_inner_container {
+  border-radius: 50%;
+  padding: 5px;
+  background-color: #03a5c1;
+}
+.image_inner_container img {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  border: 5px solid white;
+}
+
+.image_outer_container .green_icon {
+  background-color: #4cd137;
+  position: absolute;
+  right: 30px;
+  bottom: 10px;
+  height: 30px;
+  width: 30px;
+  border: 5px solid white;
+  border-radius: 50%;
+}
+
+.right-profile-side h1 {
+  font-family: "Arizonia", cursive;
+  font-size: 60px;
+}
+
+.edit-info {
+  padding-top: 20px;
+}
+.edit-info .btn {
+  width: 250px !important;
+  margin: 10px;
+  text-align: center;
+}
+.view {
+  font-family: Helvetica, Arial, sans-serif !important;
+  font-size: 25px !important;
+  color: #03a5c1;
+}
+.posted-deal {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 600px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #e9eaed;
+  border-radius: 7px;
+  width: 100%;
+  align-items: center;
+  max-height: 200px !important;
+  position: relative;
+}
+@media (max-width: 685px) {
+  .left-profile-side {
+    padding-bottom: 20px !important;
+    padding-top: 20px !important;
+    background-color: #e9eaed !important;
+    height: 100%;
+    max-width: 100%;
+    text-align: center;
+    min-height: 100%;
+  }
+  .left-profile-side {
+    flex: none;
+  }
+}

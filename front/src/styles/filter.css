@@ -1,0 +1,33 @@
+.filter {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.btn-filter {
+  background-color: white;
+  border-color: #03a5c1;
+  color: #03a5c1;
+}
+.btn-filter-g .dropdown-menu {
+  background-color: #f6f7f9;
+}
+.btn-filter:hover {
+  background-color: white;
+  color: #03a5c1;
+}
+.btn-filter-g .dropdown-item {
+  color: #03a5c1;
+}
+.btn-filter-g .dropdown-toggle {
+  color: #03a5c1;
+  background-color: white;
+}
+.btn-filter-g .btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show .btn-primary.dropdown-toggle {
+  color: white;
+  background-color: #03a5c1;
+}
+.btn-filter-g .dropdown-item:hover {
+  background-color: white;
+}

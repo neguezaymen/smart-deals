@@ -1,0 +1,28 @@
+.deal h1 {
+  font-size: 27px;
+  font-weight: bolder;
+}
+.deal {
+  padding-top: 100px;
+}
+.posted-deal a {
+  color: black;
+}
+@media (max-width: 742px) {
+  .deal-image img {
+    width: 90px;
+  }
+  .titre {
+    font-size: 18px;
+  }
+  .expire-le {
+    font-size: 9px;
+  }
+  .deal {
+    padding-top: 30px;
+  }
+}
+.deal-over {
+  opacity: 0.6;
+  color: gray;
+}

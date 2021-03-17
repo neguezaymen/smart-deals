@@ -1,0 +1,65 @@
+.container-post {
+  background-color: #e9eaed;
+}
+.post-form {
+  background-color: white;
+}
+.title-post {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-size: 30px;
+  color: #36b7cd;
+}
+.post-form h1 {
+  font-size: 27px;
+  font-weight: bolder;
+}
+.post-form h2 {
+  font-size: 20px;
+  font-weight: bolder;
+  color: #5a5d62;
+}
+/* .post-form .MuiChip-colorPrimary {
+  background-color: #36b7cd;
+} */
+.post-form .MuiChip-colorPrimary {
+  color: #36b7cd;
+  background-color: white;
+  border-color: #36b7cd;
+  outline: none;
+}
+
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #36b7cd !important;
+  outline: none;
+}
+.post-form .MuiChip-deleteIconOutlinedColorPrimary {
+  color: #36b7cd !important;
+  outline: none;
+}
+.post-form input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.MuiPickersDay-daySelected {
+  background-color: #36b7cd;
+  outline: none;
+}
+.MuiPickersDay-daySelected {
+  background-color: #36b7cd !important;
+  outline: none;
+}
+
+@media (max-width: 742px) {
+  .deal {
+    padding-top: 30px;
+  }
+  .deal-container .col-1 {
+    flex: none;
+    max-width: none;
+  }
+  .deal-container .col-5 {
+    flex: none;
+    max-width: none;
+  }
+}
